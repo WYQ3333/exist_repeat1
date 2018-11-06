@@ -19,7 +19,7 @@ int containsDuplicate(int* nums, int numsSize) {
 	{
 		for (int j = i + 1; j < numsSize; j++)
 		{
-			if ((nums[i] & nums[j]) == 1)
+			if ((nums[i] & nums[j]) !=0)
 			{
 				return 1;
 			}
