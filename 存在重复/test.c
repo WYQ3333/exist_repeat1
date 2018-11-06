@@ -19,7 +19,7 @@ int containsDuplicate(int* nums, int numsSize) {
 	{
 		for (int j = i + 1; j < numsSize; j++)
 		{
-			if ((nums[i] & nums[j]) !=0)
+			if (nums[i]==nums[j])
 			{
 				return 1;
 			}
@@ -30,7 +30,7 @@ int containsDuplicate(int* nums, int numsSize) {
 
 int main()
 {
-	int nums[] = { 3,3 };
+	int nums[] = { 3,1 };
 	int numsSize = sizeof(nums) / sizeof(nums[0]);
 	for (int i = 0; i < numsSize; i++)
 	{
