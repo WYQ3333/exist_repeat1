@@ -30,7 +30,7 @@ int containsDuplicate(int* nums, int numsSize) {
 
 int main()
 {
-	int nums[] = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
+	int nums[] = { 3,3 };
 	int numsSize = sizeof(nums) / sizeof(nums[0]);
 	for (int i = 0; i < numsSize; i++)
 	{
